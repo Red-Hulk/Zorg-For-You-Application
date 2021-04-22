@@ -1,0 +1,52 @@
+/*Styling to make the error messages red*/
+#formulier .labels{
+    -fx-text-fill: red;
+}
+
+/*-----------------------------------------------------------------*/
+
+#grid {
+    -fx-padding: 20,0,0,0;
+}
+
+/*------------------------------------------------------------------*/
+/*Styling the text fields in form*/
+#formulier .text-field
+{
+    -fx-background-color: black, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+    -fx-min-width: 100px;
+    -fx-min-height: 25px;
+}
+
+#formulier .text-field:hover
+{
+    -fx-background-color: black, #909090, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+}
+
+#formulier .text-field:focused
+{
+    -fx-background-color: transparent, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+}
+
+/*-----------------------------------------------------------------*/
+
+/*Styling the combobox*/
+#combo {
+    -fx-min-width: 150px;
+}
+
+/*-----------------------------------------*/
+/*Styling Privacy checkbox*/
+#checkId{
+    -fx-padding: 0 0 20 0;
+}
+
+#labelCheck{
+    -fx-padding: 0 0 20 0;
+}

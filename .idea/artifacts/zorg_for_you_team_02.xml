@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="zorg-for-you-team-02">
+    <output-path>$PROJECT_DIR$/out/artifacts/zorg_for_you_team_02</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="application.Main" />
+        <option name="description" value="" />
+        <option name="height" value="0" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="Zorg-For-You" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.0" />
+        <option name="width" value="0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="zorg_for_you_team_02.jar">
+        <element id="module-output" name="zorg-for-you-team-02" />
+        <element id="extracted-dir" path="$USER_HOME$/Downloads/Java/Java Overige/json-simple-1.1.1.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/Downloads/Programma's/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23.jar" path-in-jar="/" />
+      </element>
+    </root>
+  </artifact>
+</component>

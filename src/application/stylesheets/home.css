@@ -1,0 +1,64 @@
+#root {
+    -fx-background-image: url("../Images/home.jpg");
+}
+
+.button {
+    -fx-cursor: HAND;
+    -fx-min-width: 200;
+    -fx-min-height: 75;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #7c4400 0%,#903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%,#ff8c1a, #d06b0d);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.8em;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0.2,2,2 );
+}
+
+.button:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #ac4815 0%, #ff6a00 100),
+            #cf4c20,
+            #d86e3a,
+            radial-gradient(center 50% 50%,radius 100%,#ff6a00, #c85200);
+}
+
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+#btnAdmin, #btnFeedback {
+    -fx-cursor: HAND;
+    -fx-min-width: 30;
+    -fx-min-height: 5;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #7c4400 0%,#903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%,#ff8c1a, #d06b0d);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0.2,2,2 );
+}
+
+#btnAdmin:hover, #btnFeedback:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #ac4815 0%, #ff6a00 100),
+            #cf4c20,
+            #d86e3a,
+            radial-gradient(center 50% 50%,radius 100%,#ff6a00, #c85200);
+}
+
+#btnAdmin:pressed, #btnFeedback:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}

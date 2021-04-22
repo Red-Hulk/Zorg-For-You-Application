@@ -1,0 +1,236 @@
+.button {
+    -fx-min-width: 190;
+}
+
+.text-field {
+    -fx-min-width: 190;
+}
+
+.label {
+    -fx-font-size: 15;
+}
+
+.text-area {
+    -fx-pref-width: 190;
+    -fx-pref-height: 250;
+}
+
+.button {
+    -fx-cursor: HAND;
+    -fx-max-width: 140;
+    -fx-max-height: 75;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #7c4400 0%,#903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%,#ff8c1a, #d06b0d);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.3em;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0.2,2,2 );
+}
+
+.button:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #ac4815 0%, #ff6a00 100),
+            #cf4c20,
+            #d86e3a,
+            radial-gradient(center 50% 50%,radius 100%,#ff6a00, #c85200);
+}
+
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+.LeftPanel .button {
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-min-width: 130px;
+    -fx-min-height: 50px;
+}
+
+.LeftPanel .button:pressed {
+    -fx-padding: 15 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+#rectLeftPanel {
+    -fx-fill: WHITE;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 30,0.2,2,2 );
+    -fx-pref-height: 400;
+    -fx-pref-width: 150;
+}
+
+#crLogo {
+    -fx-fill: rgba(255, 140, 27, 0);
+    -fx-stroke-width: 5;
+}
+
+#crLogoB {
+    -fx-fill: rgb(255, 140, 27);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 30,0.2,2,2 );
+}
+
+#rectLogo {
+    -fx-fill: rgb(255, 140, 27);
+}
+
+#lbLogo {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: WHITE;
+}
+
+.Right .button {
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-padding: 5px;
+    -fx-min-width: 30px;
+    -fx-min-height: 30px;
+}
+
+.Right .button:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #ac4815 0%, #ff6a00 100),
+            #cf4c20,
+            #d86e3a,
+            radial-gradient(center 50% 50%,radius 100%,#ff6a00, #c85200);
+}
+
+.Right .button:pressed {
+    -fx-padding: 6.5 5 5 5;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+/*-----------------------------------------------------------------------*/
+/*Styling Part Tristan*/
+
+.button {
+    -fx-cursor: HAND;
+    -fx-max-width: 140;
+    -fx-max-height: 10px;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #7c4400 0%,#903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%,#ff8c1a, #d06b0d);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.3em;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0.2,2,2 );
+}
+
+.button:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #ac4815 0%, #ff6a00 100),
+            #cf4c20,
+            #d86e3a,
+            radial-gradient(center 50% 50%,radius 100%,#ff6a00, #c85200);
+}
+
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+.LeftPanel .button {
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-min-width: 130px;
+    -fx-min-height: 50px;
+}
+
+.LeftPanel .button:pressed {
+    -fx-padding: 15 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+#rectLeftPanel {
+    -fx-fill: WHITE;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 30,0.2,2,2 );
+    -fx-pref-height: 400;
+    -fx-pref-width: 150;
+}
+
+#crLogo {
+    -fx-fill: rgba(255, 140, 27, 0);
+    -fx-stroke-width: 5;
+}
+
+#crLogoB {
+    -fx-fill: rgb(255, 140, 27);
+}
+
+#rectLogo {
+    -fx-fill: rgb(255, 140, 27);
+}
+
+#lbLogo {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: WHITE;
+}
+
+.Right .button {
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-padding: 5px;
+    -fx-min-width: 30px;
+    -fx-min-height: 30px;
+}
+
+.Right .button:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #ac4815 0%, #ff6a00 100),
+            #cf4c20,
+            #d86e3a,
+            radial-gradient(center 50% 50%,radius 100%,#ff6a00, #c85200);
+}
+
+.Right .button:pressed {
+    -fx-padding: 6.5 5 5 5;
+    -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+.label {
+    -fx-font-size: 12px;
+}
+
+.text-area {
+    -fx-pref-width: 190;
+    -fx-pref-height: 250;
+}
+
+.grid {
+    -fx-vgap: 20px;
+    -fx-alignment: center;
+}
+
+.top {
+    -fx-padding: 10px;
+}
+
+#bottomPart {
+    -fx-padding: 10px;
+}
+
+#bottomPart .button {
+    -fx-padding: 10px;
+}
+
+#loginTekst {
+    -fx-font: bold 35px "Arial";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+#registrerenTekst {
+    -fx-font: bold 35px "Arial";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
